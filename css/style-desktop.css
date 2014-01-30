@@ -77,6 +77,10 @@
 			letter-spacing: -0.025em;
 		}
 
+	#education
+	{
+		padding: 2em 0em 2.5em 0em;
+	}
 	.box
 	{
 		padding: 2em 2em 2.5em 2em;
@@ -198,3 +202,15 @@
 	{
 		font-size: 1em;
 	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+.vco-slider .slider-item .content .content-container .text {
+width: 70%;
+max-width: 70%;
+min-width: 120px;
+display: table-cell;
+vertical-align: middle;
+}
