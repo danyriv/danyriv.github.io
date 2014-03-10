@@ -103,7 +103,10 @@
 		{
 			font-weight: 700;
 		}
-	
+	h2
+    {
+        font-family: 'Arvo', serif;
+    }
 	em, i
 	{
 		font-style: italic;
@@ -801,15 +804,12 @@
 		box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);
 	}
 
-	.wrapper-first
-	{
-		box-shadow: none;
-	}
-
 	.wrapper-style1
 	{
-		background-image: none;
+		background-image: url('images/top-bg.jpg');
+        background-size: cover;
 		background-color: #fff;
+        box-shadow: inset 0px 0px 2px 0px rgba(255,255,255,1), inset 0px 0px 10px 0px rgba(255,255,255,1);
 	}
 	
 	.wrapper-style2
@@ -862,6 +862,7 @@
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
+        font-family: 'Arvo', serif;
 	}
 	
 		#nav li
@@ -900,24 +901,40 @@
 /* Articles                                                                      */
 /*********************************************************************************/
 
-	#top
-	{
-	}
+    #top
+    {
+        padding-bottom: 15em;
+        color:#555555;
+    }
 
 		#top .me
 		{
 			border-radius: 50%;
+            border:2px solid #dedede;
 			overflow: hidden;
 		}
 
-		#top p
-		{
-		}
-	
-			#top p a
-			{
-				color: inherit;
-			}
+        #top .name
+        {
+            font-family: 'Abril Fatface', cursive;
+            font-size: 9em;
+
+        }
+        #top .first
+        {
+            color:#0B4C5F;
+            text-align: left;
+            margin: 0.4em 0 0 0;
+            text-shadow: 2px 2px 0px #eee;
+        }
+        
+        #top .last
+        {
+            color:#2E2E2E;
+            text-align: right;
+            margin: 0.2em 0.27em 0 0;
+            text-shadow: 2px 2px 0px #eee;
+        }
 
 /*********************************************************************************/
 /* Copyright                                                                     */
