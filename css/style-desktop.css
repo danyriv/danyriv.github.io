@@ -101,7 +101,7 @@
 			position: relative;
 			left: 2em;
 			top: 2em;
-			margin: -4em 0 4em -4em;
+			margin: -3.95em 0.1em 3.95em -3.95em;
 			width: auto;
 		}
 
@@ -128,7 +128,7 @@
         
         .wrapper-style1
         {
-            padding: 6em 3em 0 3em;
+            padding: 5em 3em 0 3em;
         }
 
 /*********************************************************************************/
